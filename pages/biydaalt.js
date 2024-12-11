@@ -45,7 +45,7 @@ export default function Home() {
         </button>
       </header>
 
-      {/* Search Bar */}
+  
       <div className="mb-8 relative">
         <input
           className="w-full bg-gray-800 text-white py-3 px-5 rounded-md border-2 border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-500 placeholder:text-gray-400"
@@ -56,7 +56,6 @@ export default function Home() {
         />
       </div>
 
-      {/* User list or grid view */}
       <div className={grid ? "grid grid-cols-1 lg:grid-cols-2 gap-8" : "space-y-6"}>
         {data.length > 0 ? (
           data.map(({ name, email }) => (
