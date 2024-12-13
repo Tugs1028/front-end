@@ -34,14 +34,14 @@ export default function Home() {
         <h1 className="text-3xl font-bold">Нийтлэлүүд</h1>
         <button
           onClick={() => setGrid(!grid)}
-          className="px-4 py-2 bg-blue-00 text-black rounded hover:bg-blue-600 transition ">
+          className="px-4 py-2 bg-blue-00 text-black rounded hover:bg-blue-600 transition border-2">
             {grid ? "Жагсаалт руу шилжих" : "Grid View рүү шилжих"}
         </button>
         </div>
           <div
           className={grid == true ? "grid grid-cols-1 sm:grid-cols-2 gap-6" : "space-y-4"}>
           {data.map((items) => (
-            <div key={items.id} className="border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition p-4">
+            <div key={items.id} className="border border-gray-300 rounded-lg shadow-sm hover:shadow-md transition p-4">
               <h2 className="text-xl font-semibold mb-2">{items.title}</h2>
               <p className="text-gray-600">{items.description}</p>
             </div>
