@@ -10,27 +10,27 @@ export default function Home() {
                         <img src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" alt="Logo" />
                     </div>
 
-                        <ul className="text-slate-400 text-center py-20 text-sm font-semibold">
+                        <div className="text-slate-400 text-center py-20 text-sm font-semibold">
                             <div>
                                 <svg className="mb-2 mx-[28%]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud-rain"><line x1="16" y1="13" x2="16" y2="21"></line><line x1="8" y1="13" x2="8" y2="21"></line><line x1="12" y1="15" x2="12" y2="23"></line><path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"></path></svg>
-                                <li className="mb-16">Weather</li>
+                                <div className="mb-16">Weather</div>
                             </div>
 
                             <div>
                                 <svg className="mb-2 mx-[28%]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
-                                <li className="mb-16">Cities</li>
+                                <div className="mb-16">Cities</div>
                             </div>
 
                             <div>
                                 <svg className="mb-2 mx-[28%] feather feather-map" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>
-                                <li className="mb-16">Map</li>
+                                <div className="mb-16">Map</div>
                             </div>
 
                             <div>
                                 <svg className="mb-2 mx-[28%]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sliders"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
-                                <li className="mb-16">Settings</li>
+                                <div className="mb-16">Settings</div>
                             </div>
-                        </ul>
+                        </div>
                 </div>
 
 
@@ -58,27 +58,27 @@ export default function Home() {
                             <div>
                                 <p className="text-slate-400 font-semibold mx-16">6:00 AM</p>
                                 <svg className="mx-[35%] my-2 stroke-sky-500" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud-rain"><line x1="16" y1="13" x2="16" y2="21"></line><line x1="8" y1="13" x2="8" y2="21"></line><line x1="12" y1="15" x2="12" y2="23"></line><path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"></path></svg>
-                                <p className="text-white font-semibold text-2xl mx-[40%] cursor-pointer">25°</p>
+                                <p className="text-white font-semibold text-2xl mx-[40%] cursor-pointer">20</p>
                             </div>
                             <div>
                                 <p className="text-slate-400 font-semibold mx-16">9:00 AM</p>
                                 <svg className="mx-[32%] my-2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
-                                <p className="text-white font-semibold text-2xl mx-[37%] cursor-pointer">28°</p>
+                                <p className="text-white font-semibold text-2xl mx-[37%] cursor-pointer">34</p>
                             </div>
                             <div>
                                 <p className="text-slate-400 font-semibold mx-16">12:00 PM</p>
                                 <svg className="mx-[32%] my-2 stroke-amber-500 hover:animate-spin" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                                <p className="text-white font-semibold text-2xl mx-[37%] cursor-pointer">33°</p>
+                                <p className="text-white font-semibold text-2xl mx-[37%] cursor-pointer">29</p>
                             </div>
                             <div>
                                 <p className="text-slate-400 font-semibold mx-16">3:00 PM</p>
                                 <svg className="mx-[32%] my-2 stroke-gray-300" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-wind"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"></path></svg>
-                                <p className="text-white font-semibold text-2xl mx-[37%] cursor-pointer">34°</p>
+                                <p className="text-white font-semibold text-2xl mx-[37%] cursor-pointer">31</p>
                             </div>
                             <div>
                                 <p className="text-slate-400 font-semibold mx-14">6:00 AM</p>
                                 <svg className="mx-[32%] my-2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud-snow"><path d="M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25"></path><line x1="8" y1="16" x2="8.01" y2="16"></line><line x1="8" y1="20" x2="8.01" y2="20"></line><line x1="12" y1="18" x2="12.01" y2="18"></line><line x1="12" y1="22" x2="12.01" y2="22"></line><line x1="16" y1="16" x2="16.01" y2="16"></line><line x1="16" y1="20" x2="16.01" y2="20"></line></svg>
-                                <p className="text-white font-semibold text-2xl mx-[37%] cursor-pointer">32°</p>
+                                <p className="text-white font-semibold text-2xl mx-[37%] cursor-pointer">29</p>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ export default function Home() {
                             <div>
                                 <svg className="mx-10 -my-[1.5%] stroke-slate-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-thermometer"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg>
                                 <p className="text-slate-400  text-xl -my-7 mx-[15%]">Real Feel</p>
-                                <h2 className="text-white text-4xl font-semibold my-[5.5%] mx-[15%] cursor-pointer">30°</h2>
+                                <h2 className="text-white text-4xl font-semibold my-[5.5%] mx-[15%] cursor-pointer">25</h2>
                             </div>
 
                             <div>
@@ -110,13 +110,13 @@ export default function Home() {
                             <div>
                                 <svg className="mx-10 -my-[1%] stroke-slate-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-wind"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"></path></svg>
                                 <p className="text-slate-400  text-xl -my-[5.6%] mx-[15%]">Wind</p>
-                                <h2 className="text-white text-4xl font-semibold my-[5.9%] mx-[15%] cursor-pointer">0.2 km/h</h2>
+                                <h2 className="text-white text-4xl font-semibold my-[5.9%] mx-[15%] cursor-pointer">3 km/h</h2>
                             </div>
 
                             <div>
                                 <svg className="mx-10 -my-[1%] stroke-slate-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
                                 <p className="text-slate-400  text-xl -my-[5.6%] mx-[15%]">UV Index</p>
-                                <h2 className="text-white text-4xl font-semibold my-[5.5%] mx-[15%] cursor-pointer">3</h2>
+                                <h2 className="text-white text-4xl font-semibold my-[5.5%] mx-[15%] cursor-pointer">5</h2>
                             </div>  
                         </div>
                     </div>
@@ -128,56 +128,50 @@ export default function Home() {
                     <p className="text-slate-400 text-sm font-semibold text-start my-7 mx-10">7-DAY FORECAST</p>
 
 
-                    <div>
+                    <div className="my-10">
                         <p className="text-slate-400 font-semibold mx-10 py-4">Today</p>
                         <svg className="stroke-amber-500  mx-[40%] -my-[9.5%]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
                         <p className="text-slate-300 font-semibold mx-[50%] my-[4.1%]">Sunny</p>
                         <p className="text-slate-300 font-semibold -my-[8.2%] mx-[85%]">36/22</p>
-                        <hr className="my-[16%] w-[85%] mx-[8%]"></hr>
                     </div>  
 
-                    <div className="-my-[14%]">
+                    <div className="my-10">
                         <p className="text-slate-400 font-semibold mx-10 py-6">Tue</p>
                         <svg className="stroke-white mx-[40%] -my-[9.5%]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
                         <p className="text-slate-300 font-semibold mx-[50%] my-[4.1%]">Cloudy</p>
                         <p className="text-slate-300 font-semibold -my-[8.2%] mx-[85%]">37/21</p>
-                        <hr className="my-[16%] w-[85%] mx-[8%]"></hr>
                     </div>
 
 
-                    <div className="-my-[14%]">
+                    <div className="my-10">
                         <p className="text-slate-400 font-semibold mx-10 py-6"> Wed</p>
                         <svg className="stroke-sky-600 mx-[40%] -my-[9.5%]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud-rain"><line x1="16" y1="13" x2="16" y2="21"></line><line x1="8" y1="13" x2="8" y2="21"></line><line x1="12" y1="15" x2="12" y2="23"></line><path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"></path></svg>
                         <p className="text-slate-300 font-semibold mx-[50%] my-[4.1%]">Rainy</p>
                         <p className="text-slate-300 font-semibold -my-[8.2%] mx-[85%]">35/21</p>
-                        <hr className="my-[16%] w-[85%] mx-[8%]"></hr>
                     </div>
 
 
-                    <div className="-my-[14%]">
+                    <div className="my-10">
                         <p className="text-slate-400 font-semibold mx-10 py-6">Thus</p>
                         <svg className="stroke-yellow-600 mx-[40%] -my-[9.5%]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                         <p className="text-slate-300 font-semibold mx-[50%] my-[4.1%]">Storm</p>
                         <p className="text-slate-300 font-semibold -my-[8.2%] mx-[85%]">34/19</p>
-                        <hr className="my-[16%] w-[85%] mx-[8%]"></hr>
                     </div>
 
 
-                    <div className="-my-[14%]">
+                    <div className="my-10">
                         <p className="text-slate-400 font-semibold mx-10 py-6">Fri</p>
                         <svg className="stroke-white mx-[40%] -my-[9.5%]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
                         <p className="text-slate-300 font-semibold mx-[50%] my-[4.1%]">Cloudy</p>
                         <p className="text-slate-300 font-semibold -my-[8.2%] mx-[85%]">34/22</p>
-                        <hr className="my-[16%] w-[85%] mx-[8%]"></hr>
                     </div>
 
     
-                    <div className="-my-[14%]">
+                    <div className="my-10">
                         <p className="text-slate-400 font-semibold mx-10 py-6">Sat</p>
                         <svg className="stroke-amber-500  mx-[40%] -my-[9.5%]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
                         <p className="text-slate-300 font-semibold mx-[50%] my-[4.1%]">Sunny</p>
                         <p className="text-slate-300 font-semibold -my-[8.2%] mx-[85%]">33/25</p>
-                        <hr className="my-[16%] w-[85%] mx-[8%]"></hr>
                     </div>
                 </div>
             </div>
