@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const userData = [
   { "name": "Amartuvshin", "email": "amartuvshin@gmail.com" },
@@ -30,10 +30,6 @@ export default function Home() {
   const data = userData.filter(item =>
     item.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
-  useEffect(() =>{
-    setGrid(grid);
-  }, []);
-  console.log("hi", grid);
 
   return (
     <div className="font-sans bg-gradient-to-br from-violet-500 to-teal-500 py-10 px-6 min-h-screen text-white">
